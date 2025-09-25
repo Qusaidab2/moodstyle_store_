@@ -1,78 +1,81 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>MoodStyle Store — Shop</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<meta name="description" content="MoodStyle Store — curated fashion pieces and timeless mood." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodStyle Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="site-header">
-<div class="container header-inner">
-<a class="logo" href="#">MOODSTYLE</a>
-<nav class="nav" id="nav">
-<a href="#shop">Shop</a>
-<a href="#lookbook">Lookbook</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</nav>
-<button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
-</div>
-</header>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">MoodStyle</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Elevate Your Style</h1>
+      <p>Discover fashion pieces that define your mood.</p>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
 
-<main>
-<!-- HERO -->
-<section class="hero">
-<div class="hero-inner container">
-<div class="hero-text">
-<h1>New Season. New Mood.</h1>
-<p>Effortless silhouettes, curated details, and timeless mood.</p>
-<a class="btn btn-primary" href="#shop">Shop New Arrivals</a>
-</div>
-<div class="hero-image" aria-hidden="true">
-<img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Model wearing MoodStyle look">
-</div>
-</div>
-</section>
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>MoodStyle Store is more than just clothing. We curate timeless fashion inspired by modern moods and lifestyles, bringing elegance and boldness into every outfit.</p>
+    </div>
+  </section>
 
+  <!-- Shop -->
+  <section id="shop" class="shop">
+    <h2>Featured Collection</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400" alt="Product 1">
+        <h3>Product Name</h3>
+        <p>$49.99</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400" alt="Product 2">
+        <h3>Product Name</h3>
+        <p>$59.99</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400" alt="Product 3">
+        <h3>Product Name</h3>
+        <p>$69.99</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+  </section>
 
-<!-- FEATURED COLLECTIONS -->
-<section class="collections container" id="shop">
-<h2 class="section-title">Featured</h2>
-<div class="grid collections-grid">
-<a class="card" href="#">
-<img src="https://images.unsplash.com/photo-1520975914686-0b6f2b3a8a1d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="New arrivals">
-<div class="card-body">
-<h3>New Arrivals</h3>
-<span>Shop the season</span>
-</div>
-</a>
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
 
-
-<a class="card" href="#">
-<img src="https://images.unsplash.com/photo-1520975698510-5f6d6b1e2f2b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Best sellers">
-<div class="card-body">
-<h3>Best Sellers</h3>
-<span>Customer favorites</span>
-</div>
-</a>
-
-
-<a class="card" href="#">
-<img src="https://images.unsplash.com/photo-1520975698510-5f6d6b1e2f2b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Statement pieces">
-<div class="card-body">
-<h3>Statement Pieces</h3>
-<span>Stand out</span>
-</div>
-</a>
-
-
-<a class="card" href="#">
-<img src="https://images.unsplash.com/photo-1520975914686-0b6f2b3a8a1d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Sale">
-<div class="card-body">
-<h3>Sale</h3>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MoodStyle Store. All Rights Reserved.</p>
+  </footer>
+</body>
 </html>
+
